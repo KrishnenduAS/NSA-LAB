@@ -1,0 +1,9 @@
+#! /bin/bash/
+echo "CHECK TWO FILES ARE SAME , IF THEY ARE SAME REMOVE SECOMD FILE"
+if cmp $1 $2 
+then 
+	echo "EQUAL, SHOULD BE REMOVED"
+	rm $2
+else
+	echo "NOT EQUAL, NO NEED OF DELETION"
+fi

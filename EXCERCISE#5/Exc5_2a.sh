@@ -1,3 +1,4 @@
+#! /bin/bash
 read -p  "Enter the basic salary:" s
 if [ $s -lt 1500 ] 
 then 

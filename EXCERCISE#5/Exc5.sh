@@ -1,3 +1,4 @@
+#! /bin/bash
 echo  "Check it is file or directory:" 
 if [ -d $1 ] 
 then
